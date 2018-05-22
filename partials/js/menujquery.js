@@ -7,10 +7,10 @@ $(function(){
 		// Sélectionne la page, quand tu scroll
 		/* Act on the event */
 		var montop = $(this).scrollTop();
-		//montop est égale à cette élément quand tu scroll de haut en bas
-		
+		//montop est égale à cette élément tu obtenir la position verticale actuelle de la barre de défilement quand tu scroll
+
 			if(myScrollTop < montop){
-			// Si montop est plus petit que montop
+			// Si myScrollTop est plus petit que montop
 				$('p').css('color','red');
 				// Sélectionne les paragraphes, prend leur css et change la couleur en rouge
 			}else{
