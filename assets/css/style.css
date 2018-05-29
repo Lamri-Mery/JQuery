@@ -1,0 +1,36 @@
+
+.main-header {
+    background-color: #2927b0;
+    height: 100%;
+}
+#menu{
+    display: inline-block;
+    padding: 10px;
+	margin: 10px 10%;
+}
+#menu ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+#menu li {
+	margin-left:2px;
+	float:left;
+ }
+#menu ul li a {
+	display:block;
+	float:left;   
+	width:150px;
+	color: #fff;
+	text-decoration:none;
+	text-align:center;
+	padding:5px;
+	border:2px solid;
+}
+#menu ul li a:hover {
+	background-color:;
+
+}
+.container-fluid{
+	width: 100%
+}
